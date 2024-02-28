@@ -1,0 +1,31 @@
+.transparent-input {
+    border: none; /* Remove default border */
+    border-bottom: 1px solid rgb(221, 186, 27); /* Add bottom border */
+    background-color: transparent; /* Set background color to transparent */
+    border-radius: 0; /* Optionally, remove border radius */
+    box-shadow: none; /* Optionally, remove box shadow */
+    color: white
+}
+.transparent-input::placeholder {
+    color: white;
+}
+.transparent-input:focus {
+    border: none;
+    border-bottom: 1px solid rgb(221, 186, 27);
+    background-color: transparent; /* Change bottom border color when focused */
+}
+.button{
+    background-color: rgb(221, 186, 27);
+    color: white
+}
+.status-button{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.custom-shadow{
+    box-shadow: 5px 5px 10px rgb(94, 94, 94);
+}
